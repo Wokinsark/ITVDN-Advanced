@@ -87,8 +87,6 @@ void task2(const std::string & text) {
     print(res);
 }
 
- typedef std::chrono::system_clock Clock;
-
 void task3(const std::string & filepath) {
     std::cout << "*** TASK 3 ***"<< std::endl;
     std::string data = readFile(filepath);
